@@ -69,3 +69,52 @@ body {
 .container-header-texts {
   width: 70%;
 }
+
+.cards-container {
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 100px;
+  background-color: red;
+}
+
+.card-layout {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.gard-list-details {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-content: center;
+  margin-top: 15px;
+}
+
+.card-text {
+  margin-top: 10px;
+}
+
+.list-card-language-item {
+  list-style-type: none;
+}
+
+.list-card-languages {
+  padding: 4px 12px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 8px;
+  color: #6070ff;
+  background-color: #ebebff;;
+
+}
