@@ -77,12 +77,19 @@ body {
   align-items: center;
   width: 80%;
   margin-top: 100px;
-  background-color: red;
 }
 
 .card-layout {
   border-radius: 20px;
   padding: 10px;
+}
+
+.card-layout:hover {
+  cursor: pointer;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  border-style: solid;
+  border-width: 3px;
+  border-color: #a7aeff;
 }
 
 .card-title {
@@ -115,6 +122,30 @@ body {
   line-height: 16px;
   border-radius: 8px;
   color: #6070ff;
-  background-color: #ebebff;;
-
+  background-color: #ebebff;
 }
+
+.see-project-btn {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+}
+
+.see-project-btn:hover {
+  cursor: pointer;
+  background-color: #6070ff;
+  box-shadow: 0 0 16px rgba(64, 83, 252, 0.24);
+  transform: translateY(4px);
+  color: #fff;
+}
+
+.see-project-btn:active {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #7f8cff;
+  color: #6070ff;
+}
+
+
